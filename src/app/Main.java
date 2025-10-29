@@ -1,10 +1,6 @@
 package app;
-feature/agregar-tarea
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
-
-
-main
 import java.util.Scanner;
 
 /**

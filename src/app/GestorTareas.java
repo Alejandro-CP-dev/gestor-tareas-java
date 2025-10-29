@@ -51,15 +51,13 @@ public class GestorTareas {
         }
 // Mostrar encabezado
         System.out.println("\n📋 LISTA DE TAREAS");
-        System.out.println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                ━━━━━━━━━━━━━━━━━━━━");
+        System.out.println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
 // Recorrer y mostrar cada tarea con su índice
         for (int i = 0; i < tareas.size(); i++) {
             System.out.println("[" + i + "] " + tareas.get(i).toString());
         }
 // Mostrar pie
-        System.out.println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-                ━━━━━━━━━━━━━━━━━━━━");
+        System.out.println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
                 System.out.println("Total: " + tareas.size() + " tarea(s)");
     }
     // ============================================
