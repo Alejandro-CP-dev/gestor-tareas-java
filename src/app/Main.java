@@ -60,9 +60,9 @@ public class Main {
                     break;
 
                 case 2:
-                    // TODO: Implementar por Miembro 2
-                    System.out.println("\n🔨 Funcionalidad 'Listar tareas' en desarrollo...");
-                    break;
+                // Simplemente llamar al método
+                gestor.listarTareas();
+                break;
                 case 3:
                     // TODO: Implementar por Miembro 3
                     System.out.println("\n🔨 Funcionalidad 'Marcar completada' en desarrollo...");
